@@ -24,14 +24,14 @@
 </header>
 <nav class="collapsed" id="mainnav">
   <ul>
-    <li><a href="./baiken-buttons.html">Buttons</a></li>
-    <li><a href="./baiken-neutral.html">Neutral</a></li>
-    <li><a href="./baiken-gameplan.html">Gameplan</a></li>
-    <li><a href="./baiken-pressure.html">Pressure</a></li>
-    <li><a href="./baiken-defense.html">Defense</a></li>
-    <li><a href="./baiken-oki.html">Okizeme</a></li>
-    <li><a href="./baiken-combos.html">Combos</a></li>
-    <li><a href="./submissions.html">Submissions</a></li>
+    <a href="./baiken-buttons.html">Buttons</a>
+    <a href="./baiken-neutral.html">Neutral</a>
+    <a href="./baiken-gameplan.html">Gameplan</a>
+    <a href="./baiken-pressure.html">Pressure</a>
+    <a href="./baiken-defense.html">Defense</a>
+    <a href="./baiken-oki.html">Okizeme</a>
+    <a href="./baiken-combos.html">Combos</a>
+    <a href="./submissions.html">Submissions</a>
   </ul>
 </nav>
 <main>
@@ -55,7 +55,7 @@
       <form action="./submitted-submission.html">
         <div class="feedback">
           <label class="game-tag-label">Game Tag:</label>
-          <input class="game-tag" type="text" name="game-tag" id="game-tag" placeholder="To give credit" required>
+          <input class="game-tag" type="text" name="game-tag" id="game-tag" maxlength="25" placeholder="To give credit" required>
           <span class="error"></span>
         </div>
         <div class="feedback">
@@ -65,17 +65,17 @@
         </div>
         <div class="feedback">
           <label class="combo-notation-label">Combo Notation:</label>
-          <input class="combo-notation" type="text" name="combo-notation" id="combo-notation" placeholder="CH 6H > 236236S" required>
+          <input class="combo-notation" type="text" name="combo-notation" id="combo-notation" maxlength="150" placeholder="CH 6H > 236236S" required>
           <span class="error"></span>
         </div>
         <div class="feedback">
           <label class="additional-comments">Additional Information and Comments:</label>
-          <textarea name="" id="" cols="30" rows="10" placeholder="This combo only works on XYZ character
+          <textarea name="" id="" cols="30" rows="10" maxlength="300" placeholder="This combo only works on XYZ character
 This combo only works from midscreen"></textarea>
         </div>
-        <div class="feedback">
-          <button type="submit" class="submit-button"><p>S U B M I T</p></button>
-          <button type="reset" class="reset-button"><p>R E S E T</p></button>
+        <div class="feedback buttons">
+          <button type="submit" class="submit-button">S U B M I T</button>
+          <button type="reset" class="reset-button">R E S E T</button>
         </div>
       </form>
     </article>
