@@ -306,6 +306,12 @@ input {
     .feedback button {
         width: 50%;
     }
+    video {
+        padding-left: 0.5em;
+    }
+    .twitter-tweet {
+        padding-left: 1em;
+    }
 }
 /*
 I want those 300 lines
