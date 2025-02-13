@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Geist Mono", monospace;
+    color: #E8E5D5;
+}
+p{
+    margin: 1em;
+}
+body {
+    background-color: #2c3140;
+}
+header {
+    display: grid;
+    grid-template-columns: 1.014fr 0fr 2.986fr;
+    background: #2c3140;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0.2em;
+}
+nav a {
+    display: inline-block;
+    border: 2px solid #f2ceae;
+    border-radius: 8px;
+    background: #8C495B;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+#mainnav {
+    margin-top: 0.2em;
+    position: sticky;
+    top: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    z-index: 2000;
+}
+.article-title-div {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    vertical-align: middle;
+}
+.article-title-div h3 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    font-size: 2em;
+}
+.subarticle-title-div {
+    margin-top: 1em;
+    vertical-align: middle;
+    text-align: center;
+}
+.subarticle-title-div h3 {
+    font-size: 2em;
+}
+.article-image {
+    height: 100px;
+}
+#mainnav a {
+    display: inline-block;
+}
+.header-title-container a {
+    text-decoration: none;
+}
+.header-title-container a:hover {
+    color: #8C495B;
+}
+nav a {
+    text-decoration: none;
+    color: #f2ceae;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+nav a:hover {
+    background: #2c3140;
+}
+.dustloop-Logo {
+    width: 100px;
+}
+.header-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spacer {
+    border: 1px solid #f2ceae;
+}
+.textspacer {
+    border: 1px solid #f2ceae;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.outer-textspacer {
+    border: 1px solid #8C495B;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.header-title-container h1{
+    margin-left: 0.5em;
+}
+.header-title-container h3{
+    margin-left: 0.9em;
+}
+section article {
+    text-align: left;
+    margin: 1em;
+    border: 2px solid #232733;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.video-container {
+    margin-bottom: 0.5em;
+}
+.video-container video {
+    margin-left: 0.5em;
+}
+.video-container figcaption {
+    margin-left: 1em;
+}
+article h2 {
+    text-align: center;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
+    font-size: 2.5em;
+}
+article h3 {
+    text-align: center;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
+
+}
+article li {
+    margin-left: 1em;
+}
+article p {
+    font-size: 0.8em;
+}
+
+footer {
+    margin: 0.5em;
+    position: relative;
+    left: 0;
+    width: auto;
+    height: 100px;
+    background-color: #8c495b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border: 2px solid #f2ceae;
+    border-radius: 8px;
+}
+
+/* Footer-Inhalt */
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+footer h4, footer p, footer address {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #f2ceae;
+}
+
+footer a {
+    color: #f25e5e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+section h1 {
+    text-align: center;
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    font-size: 1.2em;
+    color: #8C495B;
+}
+.title-connector {
+    color: #f2ceae;
+}
+/* Button colors to highlight them in the text*/
+.heavyslash {
+    color: red;
+}
+.slash {
+    color: #2fd72f;
+}
+.dust {
+    color: #ffab3b;
+}
+.kick {
+    color: #2095ff;
+}
+.punch {
+    color: #ecaeea;
+}
+.link {
+    color: #f2ceae;
+}
+.evilReset {
+    color: #f25e5e;
+}
+.subparagraph {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+.cursive {
+    font-size: 0.8em;
+    padding-left: 2em;
+}
+.impressum-div {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-left: 1em;
+}
+.feedback {
+    margin-left: 0.5em;
+    width: auto;
+    margin-bottom: 0.5em;
+}
+.feedback input, textarea {
+    padding-left: 0.2em;
+    color: #E8E5D5;
+}
+
+.feedback button {
+    background-color: #8C495B;
+    color: #f2ceae;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+}
+.feedback button:hover {
+    background-color: #2c3140;
+}
+textarea {
+    /* Makes sure that I can set multiple lines of placeholder */
+    white-space: pre-wrap;
+    background: #2c3140;
+    border: 1px solid #f2ceae;
+    border-radius: 0.5em;
+}
+input {
+    background: #2c3140;
+    border: none;
+    border-bottom: 1px solid #f2ceae;
+}
+.hasError {
+    color: #8C495B;
+}
+.hasSuccess {
+    color: #2c3140;
+}
+/* Clip submission exception */
+#video-clip {
+    border: none;
+}
+.feedback input{
+    display: block;
+}
+@media screen and (min-width: 720px){
+    .feedback {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    video {
+        width: 720px;
+        height: 405px;
+    }
+    /*
+    Video Container alignment
+    */
+    .video-container {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .twitter-clip {
+        grid-template-columns: 1fr 1fr;
+    }
+    article p {
+        font-size: 1.2em;
+    }
+    .video-container p {
+        margin-top: 0.0em;
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .combo-notation {
+        height: 2em;
+    }
+    .combo-notation-label {
+        margin-bottom: 0;
+    }
+    .feedback button {
+        width: 50%;
+    }
+    video {
+        padding-left: 0.5em;
+    }
+    .twitter-tweet {
+        padding-left: 1em;
+    }
+}
+/*
+I want those 300 lines
+of clean css code 😈
+ */

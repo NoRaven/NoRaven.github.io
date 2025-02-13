@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Baiken Bible</title>
+  <link rel="stylesheet" href="../css/stylesheet.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="../js/submit-validation.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-image-container">
+    <a href="../index.html">
+      <img src="../img/homepage-logo.png" alt="Dustloop Wiki" class="dustloop-Logo">
+    </a>
+  </div>
+  <div class="spacer">
+  </div>
+  <div class="header-title-container">
+    <h1>The Baiken Bible</h1>
+    <h3>By NoRaven</h3>
+  </div>
+</header>
+<nav class="collapsed" id="mainnav">
+  <ul>
+    <a href="./baiken-buttons.html">Buttons</a>
+    <a href="./baiken-neutral.html">Neutral</a>
+    <a href="./baiken-gameplan.html">Gameplan</a>
+    <a href="./baiken-pressure.html">Pressure</a>
+    <a href="./baiken-defense.html">Defense</a>
+    <a href="./baiken-oki.html">Okizeme</a>
+    <a href="./baiken-combos.html">Combos</a>
+    <a href="./submissions.html">Submissions</a>
+  </ul>
+</nav>
+<main>
+  <section class="welcome-screen">
+    <article>
+      <h2>About Submission</h2>
+      <p>Of course I, NoRaven, am not THE Baiken player nor have I all the knowledge about the character there is. <br>
+      Because of that, I want YOU to help us, the Baiken players, with your knowledge. <br>
+      Got an optimal combo?<br>
+      Found a new setup?<br>
+      Maybe you just found a clean combo to style on your opponent, who knows. <br><br>
+      If you want to share the cool stuff you found with Baiken you can do that here. <br>
+      I will personally review all submissions and insert them into the document after I checked some things about
+      the submission. <br>
+      <span class="subparagraph">(Like if the video format works, if it already exist etc.)</span></p>
+    </article>
+    <div class="outer-textspacer">
+    </div>
+    <article>
+      <h2>Submission</h2>
+      <form action="./submitted-submission.html">
+        <div class="feedback">
+          <label class="game-tag-label">Game Tag:</label>
+          <input class="game-tag" type="text" name="game-tag" id="game-tag" maxlength="25" placeholder="To give credit" required>
+          <span class="error"></span>
+        </div>
+        <div class="feedback">
+          <label class="file-label">Video Clip:</label>
+          <input class="video-submit" type="file" name="video-clip" id="video-clip" placeholder="insane-baiken-combo.mp4" accept="video/mp4" required>
+          <span class="error"></span>
+        </div>
+        <div class="feedback">
+          <label class="combo-notation-label">Combo Notation:</label>
+          <input class="combo-notation" type="text" name="combo-notation" id="combo-notation" maxlength="150" placeholder="CH 6H > 236236S" required>
+          <span class="error"></span>
+        </div>
+        <div class="feedback">
+          <label class="additional-comments">Additional Information and Comments:</label>
+          <textarea name="" id="" cols="30" rows="10" maxlength="300" placeholder="This combo only works on XYZ character
+This combo only works from midscreen"></textarea>
+        </div>
+        <div class="feedback buttons">
+          <button type="submit" class="submit-button">S U B M I T</button>
+          <button type="reset" class="reset-button">R E S E T</button>
+        </div>
+      </form>
+    </article>
+  </section>
+</main>
+<footer>
+  <div class="container footerflex">
+    <h4>Contact Details</h4>
+    <p>
+      E-Mail:
+      <a href="mailto:placeholder@gmail.com">placeholder@gmail.com</a>
+      <br>
+      <a href="./impressum.html">Impressum</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
