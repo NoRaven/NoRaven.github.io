@@ -209,6 +209,9 @@ section h1 {
 .evilReset {
     color: #f25e5e;
 }
+.indent {
+    margin-left: 1.5em;
+}
 .subparagraph {
     font-size: 0.8em;
     font-weight: lighter;
