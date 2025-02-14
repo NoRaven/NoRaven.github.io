@@ -220,6 +220,10 @@ section h1 {
     font-size: 0.8em;
     padding-left: 2em;
 }
+.smol {
+    font-size: 1em;
+    color: #8C495B;
+}
 .impressum-div {
     display: grid;
     grid-template-columns: 1fr 6fr;
